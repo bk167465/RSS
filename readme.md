@@ -8,4 +8,5 @@
    - go mod tidy
 4. Change current directory to sql/schema and run up migration command
    - goose postgres URL up
-7. Start backend: go build && ./rss
+5. Run sqlc genrate command to genrate models file in internal directory
+6. Start backend: go build && ./rss
